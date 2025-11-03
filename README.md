@@ -1,4 +1,4 @@
-# 25 Python Mini Projects
+# 25+ Python Mini Projects
 
 Welcome to my **25 Python Mini Projects Repository!**  
 This collection showcases my hands-on practice and understanding of Python programming, covering key areas such as automation, data handling, algorithms, and small-scale applications.
