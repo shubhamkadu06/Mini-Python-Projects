@@ -1,4 +1,4 @@
-//# 🧮 Age Calculator (Python)
+# 🧮 Age Calculator (Python)
 
 A simple Python program that calculates a person's age in **years, months, and days** using the current date.
 
@@ -11,7 +11,7 @@ A simple Python program that calculates a person's age in **years, months, and d
 ## 🧠 How It Works
 1. Takes your **name** and **age** as input.
 2. Uses the current system date and time to estimate total days lived.
-3. Prints your age in **years, months, and days**.//
+3. Prints your age in **years, months, and days**
 
 import time
 from calendar import isleap
@@ -62,3 +62,4 @@ day = day + localtime.tm_mday
 print("%s's age is %d years or " % (name, year), end="")
 
 print("%d months or %d days" % (month, day))
+
