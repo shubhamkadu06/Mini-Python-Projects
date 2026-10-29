@@ -4,6 +4,7 @@ import time
 
 parser = argparse.ArgumentParser()
 
+
 parser.add_argument("-p", "--path", help="absolute path to store screenshot.", default=r"./images")
 parser.add_argument("-t", "--type", help="h (in hour) or m (in minutes) or s (in seconds)", default='h')
 parser.add_argument("-f", "--frequency", help="frequency for taking screenshot per h/m/s.", default=1, type=int)
