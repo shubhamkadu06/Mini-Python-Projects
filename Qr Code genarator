@@ -1,0 +1,15 @@
+import qrcode
+
+qr = qrcode.QRCode(
+    version=1,  # Controls size (1 is 21x21; set fit=True to auto-adjust)
+    error_correction=qrcode.constants.ERROR_CORRECT_H,  # High error correction (up to 30% damage tolerance)
+    box_size=10,  # Pixel size of each individual square
+    border=4,     # Thickness of the white border (minimum standard is 4)
+)
+
+qr.add_data("https://example.com")
+qr.make(fit=True)
+
+# Customize foreground and background colors (accepts names or RGB tuples)
+img = qr.make_image(fill_color="navy", back_color="white")
+img.save("custom_qr.png")
